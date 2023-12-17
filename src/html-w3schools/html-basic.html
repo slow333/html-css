@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;600&display=swap" rel="stylesheet">
+  <title>html basic</title>
+  <style>
+    body {
+       background-color: white;
+       font-family: 'Noto Sans KR', sans-serif;
+       color:black;
+    }
+    p {  border: 1px solid #f1f1f1; }
+  </style>
+</head>
+<body>
+<p>HTML is <mark>FUN</mark> to learn!</p>
+
+<p id="mytext">  H<sub>2</sub>O is the scientific term for water. </p>
+<p> My favorite color is <del>blue</del> red. </p>
+<h1>Quotations</h1>
+<p> I am so "cool". I am so <q>cool</q>. </p>
+<p>약어표시 /// blockquote cite="http://www.worldwildlife.org/who/index.html" </p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation ...</blockquote>
+<bdo dir="rtl">What a beautiful day!</bdo>
+<p> The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p>
+<h1>comment</h1>
+<h1>This is a heading</h1>
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<h1>color</h1>
+<p style="background-color:rgb(106,100,205)">This is a paragraph.</p>
+<h3>the HSLA value ; no hue, 100% saturation, 50% lightness, and 50% transparency.
+  <br>style="color: hsla(0,100%, 50%, 0.5)"
+</h3>
+<p style="color: hsla(0,100%, 50%, 0.5)">This is a paragraph.</p>
+<h1>css</h1>
+<h1>Links</h1>
+<a href="default.html">This is hyper link</a>
+<p>Use CSS to remove the underline from the link. text-decoration:none</p>
+<a href="html_images.asp" style="text-decoration: none">HTML Images</a>
+<p>Use the correct HTML attribute to make the link open in a new window.  target="_blank"</p>
+<a href="html_images.asp" target="_blank">the link open in a new window</a>
+<p>Use the correct HTML to make the image become a link to "default.html".</p>
+<a href="deful.html"><img src="smiley.git"></a>
+<pre>Add a "tooltip" to the link.
+The "tooltip" should say "Home".</pre>
+
+<a href="default.html" title="Home">Back to Home</a>
+<h3>Add a link to a bookmark, on the same page, with the id="mytext".</h3>
+<a href="#mytext">Jump to new text in this html page</a>
+<h1>Images</h1>
+<p>Make the image below float to the right of the paragraph. : float:right</p>
+<p><img src="simley.png" style="float: right" alt="Smiley">This is a paragraph.
+  This paragraph contains an image </p>
+<p>For image maps, specify a legal value for the area tag's shape attribute.
+  (Any legal value will give a correct answer)</p>
+<area shape="default" href="default.html">
+<p>Add a background image named "myimage.png" on a HTML element.</p>
+<p style="background-image:url('simley.png')">...</p>
+<p>Which HTML tag is used to handle the favicon (the little image to the left in the browser tab)</p>
+<p style="font-weight: 600">head 안에 있는 것 참조</p>
+</body>
+</html>

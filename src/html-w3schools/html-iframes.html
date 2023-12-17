@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;600&display=swap" rel="stylesheet">
+  <title>html basic</title>
+  <style>
+    body {
+       font-family: 'Noto Sans KR', sans-serif;
+       border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+<h1>iframe</h1>
+<iframe src="https://www.w3schools.com" width="500" style="border: none">w3school</iframe>
+<iframe src="default.html"></iframe>
+<p id="demo">Hi.... All for one</p>
+<img id="image" src="favicon.ico" alt="img">
+<p>Code: example:<code> var person;</code></p>
+<p>Code example:</p>
+<pre><code>var person = {
+  firstName:"John",
+  lastName:"Doe"
+  }</code></pre>
+<input type="radio" name="fav_language" value="html">HTML</input>
+<input type="radio" name="fav_language" value="css">CSS</input>
+<form action="/action_page.php">
+Name: <input type="text" name="name">
+<input type="submit">
+</form>
+<form action="/action_page.php" method="post">
+  Name: <input type="text" name="name">
+  <input type="submit">
+</form>
+<form action="/action.php">
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="huyndai">ford</option>
+  </select>
+</form>
+<form action="/action.php">
+  <textarea name="note"></textarea>
+</form>
+<form action="/action.php">
+  <input type="text" name="username" placeholder="Your name here">
+  <input type="submit" value="Submit Form" disabled>
+</form>
+<form action="/action_page.php">
+  Favorite color:
+  Blue
+  <input value="blue" type="radio" name="color">
+  Red
+  <input value="red" type="radio" name="color">
+  <input type="submit">
+</form>
+<form action="/action.php">
+  <input type="button" value="Click Me">
+  <input type="text" maxlength="40">
+  <input type="text" readonly>
+</form>
+<form action="/action.php">
+  <input type="number" min="1" max="5" value="Click Me">
+</form>
+
+<script>
+  document.getElementById("demo").style.fontSize = "40px";
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("image").src = "simley.png"
+</script>
+
+</body>
+</html>
